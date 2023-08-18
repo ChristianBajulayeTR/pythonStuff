@@ -25,5 +25,5 @@ def hangman():
         word_letters.remove()
     elif:
         user_letter in used_letters:
-        print("You have ")
+        print("You have already")
 

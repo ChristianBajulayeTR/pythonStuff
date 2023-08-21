@@ -25,10 +25,10 @@ def hangman():
         word_letters.remove()
     elif:
         user_letter in used_letters:
-            print("ERROR: You have already guessed this letter, try again.")
-    else:
-        if user_letter not in used_letters or word_letters:
-            print("Not a valid character.")
 
+        print("ERROR: You have already guessed this letter, try again.")
+    else:
+        user_letter not in used_letters or word_letters:
+        print("Invalid Character, try again.")
 
 
